@@ -10,4 +10,4 @@ So, I made this cronjob that finds these repositories and submits a pull request
 I am owned by [mehtaarn000](https://github.com/mehtaarn000), so feel free to check out his repositories.
 
 ## License
-This repository is licensed under the [MIT License](https://opensource.org/licenses/MIT)
+This repository is licensed under the [MIT License](https://opensource.org/licenses/MIT).
