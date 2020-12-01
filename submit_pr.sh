@@ -42,7 +42,7 @@ git commit -m "Add README.md"
 sleep 2
 git push -u origin master
 sleep 10
-hub pull-request --file ~/Desktop/READMEBot/utils/COMMIT_MESSAGE.md -b $3:$5 -h mehtaarn000-readmebot:master -f
+hub pull-request --file utils/COMMIT_MESSAGE.md -b $3:$5 -h mehtaarn000-readmebot:master -f
 sleep 6
 hub delete -y $6
 rm -rf new_dir
