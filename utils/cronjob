@@ -1,0 +1,1 @@
+0 12 * * * cd readmebot && python3 main.py
