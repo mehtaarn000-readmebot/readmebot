@@ -13,7 +13,7 @@ git clone $1
 cd $6
 hub fork
 touch README.md
-cp ~/Desktop/READMEBot/utils/COMMIT_MESSAGE.md COMMIT_MESSAGE.md
+cp utils/COMMIT_MESSAGE.md
 READMEFILE=$(cat << EOM
 # $3
 
