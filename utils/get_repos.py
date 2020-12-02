@@ -61,4 +61,3 @@ def return_branch_list():
     return default_branch_list
 def return_authors():
     return author_list
-print(get_repos())

@@ -1,6 +1,6 @@
 from utils import get_repos
 from sys import exit
-from subprocess import Popen
+from os import system
 
 git_list = []
 new_git_urls = []
@@ -34,5 +34,5 @@ for item in new_git_urls:
 
 index = 0
 for i in names:
-    Popen("sh submit_prs.sh {} {} {} {} {} {}".format(new_git_urls[0], forked_url_list[0], i, descriptions[0], branches[0], authors[0]))
+    system("sh submit_prs.sh {} {} {} {} {} {}".format(new_git_urls[0], forked_url_list[0], i, descriptions[0], branches[0], authors[0]))
     index += 1
